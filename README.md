@@ -48,7 +48,7 @@ Our goal is to train a be able to train a Convultionary Neural Network(CNN) mode
 We leveraged on the 2D dashboard images that were taken from an controlled experiment conducted by State Farm Insurance Company as the dataset for our project. To efficiently run our model, we will normalize our images to the same size and convert them to gray scale images since color is not an essential factor in detecting distracted driving. 
 
 ## Notebooks
-                                                              |
+
 
 
 ## Conclusions and Recommendations
