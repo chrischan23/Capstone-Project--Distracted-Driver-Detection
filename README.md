@@ -57,7 +57,7 @@ We leveraged on the 2D dashboard images that were taken from an controlled exper
 
 ## Notebooks
 
-- [capstone](code/capstone.ipynb)
+- [capstone](code/Capstone.ipynb)
 
 
 ## Conclusions and Recommendations
