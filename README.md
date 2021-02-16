@@ -29,10 +29,10 @@ In the United States alone, 25-50% of all auto vehicle crashes are directly rela
 In light of this, we will use dataset of 2D dashboard images of drivers from State Farm Insurance Company to build a multiclassifer model using Convultionary Neural Network(CNN) to detect and classify images of drivers as either safe driving, or any of the various examples of distracted driving such as texting or talking on the mobile phone. Our measure of success will be maximising the CNN accuracy and minimising the CNN loss.
 
 <div>
-    <img src="pictures/img_3658.jpg" width="100" style="display:inline">
-    <img src="pictures/img_94.jpg" width="100" style="display:inline"> 
-    <img src="pictures/img_9263.jpg" width="100" style="display:inline">
-    <img src="pictures/img_98982.jpg" width="100" style="display:inline"> 
+    <img src="pictures/img_3658.jpg" width="150" style="display:inline">
+    <img src="pictures/img_94.jpg" width="150" style="display:inline"> 
+    <img src="pictures/img_9263.jpg" width="150" style="display:inline">
+    <img src="pictures/img_98982.jpg" width="150" style="display:inline"> 
 </div>
 
 
