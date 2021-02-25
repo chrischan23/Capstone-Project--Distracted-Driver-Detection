@@ -55,14 +55,29 @@ Our goal is to train a be able to train a Convultionary Neural Network(CNN) mode
 
 We leveraged on the 2D dashboard images that were taken from an controlled experiment conducted by State Farm Insurance Company as the dataset for our project. To efficiently run our model, we will normalize our images to the same size and convert them to gray scale images since color is not an essential factor in detecting distracted driving. 
 
+Our initial CNN model we created from scratch resulted in a very high accuracy and low log loss score. Upon further investigation, we found that by splitting the images randomly, we are leaking some of the similar images of any particular driver into our validation sets and resulted in overfitting. 
+
+To address this issue, we split the data by driver id in order to have prevent overfitting of the data and reduce any data leakages.
+
+As our CNN model from scrach achieved less than satisfactory results, we turned to well known pretrained models like VGG16, MobileNet, Resnet50 and Xception to hopefully provide us with better accuracy and lower log loss. 
+
+We also performed image augmentation by rotating it and then shifting the width and height of the image that gives us a specific region of the image to hopefully provide us a better score. 
+
+
 ## Notebooks
 
 - [capstone](code/Capstone.ipynb)
+- [CNN with no data leakage](code/cnn_no_data_leakage.ipynb)
+- [VGG16](code/pretrained_models_vgg16.ipynb)
+- [MobileNet](code/pretrained_models_vgg16.ipynb)
+- [Xception](code/pretrained_models_xception.ipynb)
 
 
 ## Conclusions and Recommendations
 
+Our best model that we trained was the VGG16 which was able to predict the behaviour of a driver at a 85% accuracy rate. It probably isnt the best score out there, but still a good basis point for further study distracted driver behaviour.
+
+Looking ahead, we could consider deploying our model on the roads where traffic police on the roads could detect and weed out distracted drivers in time before accidents happen. It could also act as a basis point for car manufactures to help design cars to remove any further distractions. 
+
+Our ultimate goal is to keep the roads safe again for all road users and prevent needless innocent lives being lost and hopefully this model would come to be of good use some day.
  
-
-
-## Further Exploration
